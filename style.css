@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  img {
+    width: 100px;
+    height: auto;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .about {
+    margin-bottom: 20px;
+  }
+  
+  .about, .services, .organizations, .resources, .facts {
+   
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    color: whitesmoke;
+  }
+
+  .services, .organizations{
+    background-color: steelblue;
+    border: 1px solid rgb(236, 157, 10);
+
+    
+  }
+
+  .resources, .about{
+    background-image: linear-gradient(to right, purple 40%, rgb(196, 6, 6) 60%);
+    color: whitesmoke;
+    font-weight: bolder;
+  }
+
+  
+  #fact{
+    color: lime;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #4285F4;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .facts {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .fact-container {
+    font-size: 1.2em;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin: 0 5px;
+}
+
+
+.social-links a:hover {
+  background-color: #ddd;
+}
+
+.social-links i {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+section img{
+  height: 1.5em;
+  width: 1.5em;
+}
+.contact ul{
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+@media screen and ( min-width: 768px){
+  .details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
